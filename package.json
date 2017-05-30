@@ -1,0 +1,50 @@
+{
+  "name": "angular2noty",
+  "version": "1.0.0",
+  "description": "A Notification service written in angular2 Edit",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc -d",
+    "karma": "karma start --single-run",
+    "test:unit": "npm run karma",
+    "test": "npm run compile && npm run test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prashanth-Nelli/Angular2Noty.git"
+  },
+  "keywords": [
+    "angular2",
+    "noty",
+    "notification",
+    "notification",
+    "service"
+  ],
+  "author": "Nelli.Prashanth Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prashanth-Nelli/Angular2Noty/issues"
+  },
+  "homepage": "https://github.com/Prashanth-Nelli/Angular2Noty#readme",
+  "dependencies": {
+    "@angular/common": "^4.1.3",
+    "@angular/compiler": "^4.1.3",
+    "@angular/core": "^4.1.3",
+    "@angular/platform-browser": "^4.1.3",
+    "@angular/platform-browser-dynamic": "^4.1.3",
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.47",
+    "@types/node": "^7.0.16",
+    "jasmine-core": "^2.6.1",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.1.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "requirejs": "^2.3.3",
+    "systemjs": "^0.20.12",
+    "typescript": "^2.0.2"
+  }
+}
